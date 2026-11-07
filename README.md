@@ -77,16 +77,38 @@ The workflow is:
 6. Summarise the simulation results.
 7. Estimate the no-interaction extension and compare results.
 
-## Repository status
+## Repository contents and reproduction status
 
-Repository preparation is in progress. The executed notebook,
-comparison output, exact environment information, and detailed
-execution instructions will be added next.
+The sharing notebook is:
+`Graham_2024_Replication_and_Extension_Sharing_Copy.ipynb`
 
-Raw data and local pickle backups are not currently included.
+It contains the replication analysis, saved simulation outputs, and the
+no-size-interaction extension with its comparison table. Original author
+attribution is retained.
+
+The displayed outputs were retained from my working notebook. The edited
+sharing copy has not yet been rerun end-to-end in a fresh kernel.
+
+### Required inputs and software
+
+To reproduce the analysis, readers need:
+- The Excel input `200306.xls`, placed in the notebook's working directory.
+- The author's `ipt` and `netrics` packages, available for import.
+- Python, Jupyter, and the scientific Python dependencies used by the notebook.
+
+See the original replication-package link above for the source materials.
 Data access and redistribution terms must be checked before sharing
 data-containing files.
 
-Local backups allow results to be restored without rerunning the
-simulation. These are convenience files, not a substitute for
-documenting reproduction from the original inputs.
+The notebook records selected package-version pins, but a complete tested
+environment specification and detailed setup instructions remain to be added.
+
+### Execution
+
+With the required inputs and dependencies available, run the analysis cells
+in order in a fresh kernel. The simulation uses 5,000 replications for each
+of three designs.
+
+Raw data and local pickle backups are not included in this repository.
+Local installation, backup, restoration, and Git-check cells were removed
+from the sharing copy.
